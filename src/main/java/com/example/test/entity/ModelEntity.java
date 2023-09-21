@@ -2,8 +2,6 @@ package com.example.test.entity;
 
 import jakarta.persistence.*;
 
-import java.util.List;
-
 @Entity
 @Table(name = "model")
 public class ModelEntity {
@@ -14,9 +12,9 @@ public class ModelEntity {
     @Column(name = "model_name")
     private String modelName;
     @Column(name = "year_start")
-    private Long year_start;
+    private Long yearStart;
     @Column(name = "year_end")
-    private Long year_end;
+    private Long yearEnd;
 
     public ModelEntity() {
     }
@@ -37,19 +35,19 @@ public class ModelEntity {
         this.modelName = modelName;
     }
 
-    public Long getYear_start() {
-        return year_start;
+    public Long getYearStart() {
+        return yearStart;
     }
 
-    public void setYear_start(Long year_start) {
-        this.year_start = year_start;
+    public void setYearStart(Long year_start) {
+        this.yearStart = year_start;
     }
 
-    public Long getYear_end() {
-        return year_end;
+    public Long getYearEnd() {
+        return yearEnd;
     }
 
-    public void setYear_end(Long year_end) {
-        this.year_end = year_end;
+    public void setYearEnd(Long year_end) {
+        this.yearEnd = year_end;
     }
 }

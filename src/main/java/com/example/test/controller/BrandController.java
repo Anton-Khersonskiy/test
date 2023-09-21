@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/cars")
+@RequestMapping("/brand")
 public class BrandController {
     @Autowired
     private BrandService brandService;

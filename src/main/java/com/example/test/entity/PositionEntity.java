@@ -13,7 +13,7 @@ public class PositionEntity {
     @Column(name = "model")
     private String model;
     @Column(name = "year_release")
-    private Long year_release;
+    private Long yearRelease;
     @Column(name = "mileage")
     private Long mileage;
     @Column(name = "price")
@@ -41,12 +41,12 @@ public class PositionEntity {
         this.model = model;
     }
 
-    public Long getYear_release() {
-        return year_release;
+    public Long getYearRelease() {
+        return yearRelease;
     }
 
-    public void setYear_release(Long year_release) {
-        this.year_release = year_release;
+    public void setYearRelease(Long year_release) {
+        this.yearRelease = year_release;
     }
 
     public Long getMileage() {
